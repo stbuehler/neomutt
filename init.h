@@ -1340,7 +1340,7 @@ struct option_t MuttVars[] = {
   ** message to which you are replying.  You are strongly encouraged not to
   ** change this value, as it tends to agitate the more fanatical netizens.
   ** .pp
-  ** The value of this option is ignored if $$text_flowed is set, too because
+  ** The value of this option is ignored if $$text_flowed is set, because
   ** the quoting mechanism is strictly defined for format=flowed.
   ** .pp
   ** This option is a format string, please see the description of
@@ -1357,6 +1357,7 @@ struct option_t MuttVars[] = {
   ** .pp
   ** ``Format strings'' are similar to the strings used in the C
   ** function \fCprintf(3)\fP to format output (see the man page for more details).
+  ** For an explanation of the %? construct, see the $$status_format description.
   ** The following sequences are defined in Mutt:
   ** .dl
   ** .dt %a .dd address of the author
@@ -3131,7 +3132,7 @@ struct option_t MuttVars[] = {
   ** .pp
   ** This is an additional certificate used to encrypt messages when
   ** $$smime_self_encrypt is \fIset\fP.  It is also used to specify the
-  ** certficate for $$postpone_encrypt.  It should be the hash-value that
+  ** certificate for $$postpone_encrypt.  It should be the hash-value that
   ** OpenSSL generates.
   ** (S/MIME only)
   */
