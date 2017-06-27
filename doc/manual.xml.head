@@ -6570,6 +6570,12 @@ mailboxes $my_mx +mailbox3</screen>
                 <emphasis>MIN</emphasis> to
                 <emphasis>MAX</emphasis>*) **)</entry>
               </row>
+	      <row>
+		<entry>=/ 
+		<emphasis>STRING</emphasis></entry>
+		<entry>IMAP custom server-side search for 
+		<emphasis>STRING</emphasis>. Currently only defined for Gmail.</entry>
+	      </row>
               <row>
                 <entry>~=</entry>
                 <entry>duplicated messages (see
